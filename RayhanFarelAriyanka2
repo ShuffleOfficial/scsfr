@@ -129,7 +129,7 @@ while wait(1) do -- ESP Loop
 				end
 			end
 		end
-		if InteractsESP == false then
+		if InteractsESP == true then
 			for i, interact in pairs(workspace.Map[map].Interacts:GetChildren()) do -- Interacts ESP
 				if not interact:FindFirstChild("Highlight") then
 					local Highlight = Instance.new("Highlight")
