@@ -507,7 +507,7 @@ local function a()
 		end
 	end;
 	local function g()
-		if getgenv().Config.Main.ChangeFov == true then
+		if getgenv().Config.Main.ChangeFov == false then
 			local a = game.Workspace.CurrentCamera;
 			local b = a.FieldOfView;
 			local c = tonumber(getgenv().Config.Main.Fov)
@@ -519,7 +519,7 @@ local function a()
 			end
 		else
 			local a = game.Workspace.CurrentCamera;
-			a.FieldOfView = 120
+			a.FieldOfView = 70
 		end
 	end;
 	local function h()
