@@ -3,7 +3,7 @@
 KeyESP = true						EnemyESP = true
 ToolESP = true						PlayerESP = true
 TrapsESP = true						ExitsESP = true				
-EnemyESP = true						InteractsESP = true
+EnemyESP = true						InteractsESP = false
 
 -------------------------------->> Code <<--------------------------------
 ----->> Do not edit below this line unless you know what you're doing <<-----
@@ -129,7 +129,7 @@ while wait(1) do -- ESP Loop
 				end
 			end
 		end
-		if InteractsESP == true then
+		if InteractsESP == false then
 			for i, interact in pairs(workspace.Map[map].Interacts:GetChildren()) do -- Interacts ESP
 				if not interact:FindFirstChild("Highlight") then
 					local Highlight = Instance.new("Highlight")
