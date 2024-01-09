@@ -3,7 +3,7 @@
 KeyESP = true						EnemyESP = true
 ToolESP = true						PlayerESP = true
 TrapsESP = true						ExitsESP = true				
-EnemyESP = true						InteractsESP = true
+EnemyESP = true						InteractsESP = false
 
 -------------------------------->> Code <<--------------------------------
 ----->> Do not edit below this line unless you know what you're doing <<-----
