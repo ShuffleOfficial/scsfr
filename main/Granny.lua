@@ -4,7 +4,7 @@ getgenv().Config = {
 		["PlayerESP"] = true,
 		["EnemyESP"] = true,
 		["TrapESP"] = true,
-		["ItemESP"] = false,
+		["ItemESP"] = true,
 		["ExitESP"] = false,
 		["KeyESP"] = false,
 		["ItemCharacterESP"] = false,
@@ -143,12 +143,12 @@ local function a()
 					c.LightInfluence = 0;
 					d.Parent = c;
 					d.BackgroundTransparency = 1;
-					d.TextScaled = true;
+					d.TextScaled = false;
 					d.Text = a.Name;
 					d.TextColor3 = Color3.fromRGB(39, 179, 20)
 					d.Font = Enum.Font.SourceSansBold;
 					d.Size = UDim2.new(1, 0, 1, 0)
-					d.TextSize = 25;
+					d.TextSize = 8;
 					e.Parent = d;
 					e.Thickness = 3
 				end
@@ -179,12 +179,12 @@ local function a()
 					b.LightInfluence = 0;
 					c.Parent = b;
 					c.BackgroundTransparency = 1;
-					c.TextScaled = true;
+					c.TextScaled = false;
 					c.Text = workspace.Map.Players.Enemy.Name;
 					c.TextColor3 = Color3.fromRGB(255, 0, 0)
 					c.Font = Enum.Font.SourceSansBold;
 					c.Size = UDim2.new(1, 0, 1, 0)
-					c.TextSize = 25;
+					c.TextSize = 8;
 					d.Parent = c;
 					d.Thickness = 3
 				end
@@ -213,11 +213,12 @@ local function a()
 					c.LightInfluence = 0;
 					d.Parent = c;
 					d.BackgroundTransparency = 1;
-					d.TextScaled = true;
+					d.TextScaled = false;
 					d.Text = a.Name;
 					d.TextColor3 = Color3.fromRGB(255, 0, 0)
 					d.Font = Enum.Font.SourceSansBold;
 					d.Size = UDim2.new(1, 0, 1, 0)
+					d.TextSize = 8;
 					e.Parent = d;
 					e.Thickness = 3
 				end
@@ -249,11 +250,12 @@ local function a()
 						d.LightInfluence = 0;
 						e.Parent = d;
 						e.BackgroundTransparency = 1;
-						e.TextScaled = true;
+						e.TextScaled = false;
 						e.Text = a.Name;
 						e.TextColor3 = b;
 						e.Font = Enum.Font.SourceSansBold;
 						e.Size = UDim2.new(1, 0, 1, 0)
+						e.TextSize = 8;
 						f.Parent = e;
 						f.Thickness = 3
 					end
