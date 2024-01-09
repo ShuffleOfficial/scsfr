@@ -1,12 +1,12 @@
 getgenv().Config = {
 -------------------------------->> Configuration <<--------------------------------
 	["Main"] = {
-		["PlayerESP"] = true,
+		["PlayerESP"] = false,
 		["EnemyESP"] = true,
 		["TrapESP"] = true,
 		["ItemESP"] = false,
 		["ExitESP"] = false,
-		["KeyESP"] = false,
+		["KeyESP"] = true,
 		["ItemCharacterESP"] = false,
 		["InteractESP"] = false,
 		["SwitchInteractESP"] = false,
@@ -16,7 +16,7 @@ getgenv().Config = {
 		["AutoTpEscape"] = false,
 		["AntiTrap"] = false,
 		["ChangeFov"] = false,
-		["Fov"] = "120"
+		["Fov"] = "80"
 	}
 }
 
