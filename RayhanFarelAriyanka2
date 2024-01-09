@@ -3,7 +3,7 @@
 KeyESP = true						EnemyESP = true
 ToolESP = true						PlayerESP = true
 TrapsESP = true						ExitsESP = true				
-EnemyESP = true						InteractsESP = false
+EnemyESP = true						InteractsESP = true
 
 -------------------------------->> Code <<--------------------------------
 ----->> Do not edit below this line unless you know what you're doing <<-----
@@ -18,7 +18,7 @@ while wait(1) do -- ESP Loop
 		elseif workspace.Map:FindFirstChild("House easy") then
 			map = "House easy"
 		elseif workspace.Map:FindFirstChild("House II") then
-			map = "House II"R.Farel.A
+			map = "House II"
 		elseif workspace.Map:FindFirstChild("House II easy") then
 			map = "House II easy"
 		elseif workspace.Map:FindFirstChild("Mansion") then
